@@ -1,104 +1,88 @@
 body {
-  background-color: #dddddd ;
-  padding: 20px; 
-  font-family: Georgia ;
-  color: #333333 ;
+    margin: 60px auto;
+    width: 70%;
 }
 
-div.module {
-  width: 560px ;
-  background: white ;
-  margin-left: auto ;
-  margin-right: auto ;
-  margin-bottom: 20px ;
-  padding: 20px ;
-  padding-left: 40px ;
-  padding-right: 40px ;
-  border-radius: 9px ;
-  -moz-border-radius: 9px ;
-  -o-box-shadow: 0 5px 5px #333333 ;
-  -webkit-box-shadow: 0 5px 5px #333333 ;
-  -moz-box-shadow: 0 5px 5px #333333 ;
-  box-shadow: 0 5px 5px #333333 ;
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 li {
-  margin-top: 0.3em;
-  margin-bottom: 1em; 
+    float: left;
 }
 
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a.grey {
+    text-decoration: none;
+    color: #999;
+}
 a {
-  text-decoration: none ;
+    text-decoration: none;
+    color: #2742ba;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 2px solid grey;
+}
+
+.topnav a.active {
+  border-bottom: 2px solid grey;
 }
 
 
-div#header {
-  width: 530px;
-  height: 100px ;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-div#name-area {
-  float: left; 
+ul.posts li {
+    list-style: none;
 }
-
-span#name {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-span#title {
-  font-size: 14px;
-}
-
-span#honor {
-  font-size: 14px; 
-}
-
-div#contact-info {
-  float: right ;
-}
-
-
-div.picture {
-  width: 370px;
-  background: black ;
-  margin-left: auto ;
-  margin-right: auto ;
-  margin-bottom: 20px ;
-  padding: 20px ;
-  padding-left: 40px ;
-  padding-right: 40px ;
-  border-radius: 9px ;
-  -moz-border-radius: 9px ;
-  -o-box-shadow: 0 5px 5px #333333 ;
-  -webkit-box-shadow: 0 5px 5px #333333 ;
-  -moz-box-shadow: 0 5px 5px #333333 ;
-  box-shadow: 0 5px 5px #333333 ;  
-}
-
-.self-picture-container .sb-inner {
- background-color: black ;
-}
-
-.self-picture {
- padding-top: 10px ;
- width: 400px ;
- height: 460px ;
-}
-
-ul.jump-bar {
- margin-top: 0px;
- margin-bottom: 0px;
- margin-left: 0px;;
- margin-right: 0px;;
- padding-left: 0px ;
- padding-right: 0px ;
-}
-
-
-ul.jump-bar li {
- display: inline ;
- font-weight: bold ;
-}
-
-
