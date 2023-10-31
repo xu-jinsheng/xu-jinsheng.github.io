@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Student of Mathematics, Astronomy and Artificial Intelligence.
   University of Groningen and University of Bonn
 domain: xu-jinsheng.github.io
-baseurl: "/xu-jinsheng.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/xu-jinsheng.github.io" # the subpath of your site, e.g. /blog
 url: "https://xu-jinsheng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xu_jinsheng
 github_username:  xu-jinsheng
